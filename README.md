@@ -1,4 +1,4 @@
-<!-- ![Social Preview](./design/github/social-preview/social-preview.png) -->
+![Social Preview](./design/github/social-preview/social-preview.png)
 
 <h1 align="center"> 👨‍💻 Semana Dev Alura 👩‍💻 </h1>
 
@@ -27,7 +27,7 @@
 
 ## 📖 Overview
 
-Coming Soon!
+This repository serves as a curated collection of bite-sized code snippets and simple web demonstrations. It is designed to provide quick, practical examples of web development concepts, UI components, and layout structures. Whether used for testing isolated features or as a quick technical reference, the codebase is kept minimal, modular, and easy to understand.
 
 ## 🛠 Technologies
 
@@ -43,7 +43,9 @@ Coming Soon!
 
 ## 🚀 Demo
 
-Coming Soon!
+Access the live application below to interact with the interface and run your own performance tests.
+
+Semana Dev Alura: 
 
 ### Desktop
 
@@ -69,11 +71,23 @@ To view and interact with the project, simply open the index.html file in your p
 
 ## 📂 File Structure
 
-Coming Soon!
+Below is the project architecture. All development should be done inside the src/ folder.
+
+```text
+semana-dev-alura/
+├── design/                  # Wireframes, videos and assets for documentation
+├── src/                     # Main source code (Development)
+│   ├── assets/              # Original images and icons
+│   ├── css/                 # Styles following architecture BEM and Atomic Design principles
+│   └──js/                   # UI logic and PWA registration
+└── index.html               # Base semantic structure and main markup
+```
 
 ## 🎨 Reference & Inspiration
 
-Coming Soon!
+The project's design and wireframes are available for viewing on Figma. Below is a list of the real-world examples that inspired the UI/UX design.
+
+Figma / Wireframe: [Semana Dev Alura](https://www.figma.com/design/JYoadEDIGZwpBCkEFTGlEm/Alura-Challenge---Edi%C3%A7%C3%A3o-Front-end--Copy-?node-id=207-729&t=P2TezNrKR9C9X48j-1)
 
 ## 👨‍💻 Author and Contact
 
