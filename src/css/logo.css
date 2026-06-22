@@ -6,11 +6,11 @@
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
-  left: var(--espaco-interno);
+  left: var(--padding);
   transition: left 1.5s;
 }
 
-.logo--ativo {
+.logo--active {
   left: -15rem;
   transition: left 1s;
 }

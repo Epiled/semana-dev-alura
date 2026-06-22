@@ -1,9 +1,9 @@
 .info {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: calc(var(--espaco-interno) * 3);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: calc(var(--padding) * 3);
 }
 
 .info:last-of-type {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }

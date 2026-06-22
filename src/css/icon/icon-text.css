@@ -1,0 +1,5 @@
+.icon__text {
+  color: white;
+  font: var(--font-body);
+  margin-left: 0.8rem;
+}

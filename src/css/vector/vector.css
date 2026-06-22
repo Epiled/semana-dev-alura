@@ -1,0 +1,19 @@
+.vector {
+  height: 1.2rem;
+  width: 5.2rem;
+  position: absolute;
+  top: calc(var(--padding) * 3);
+  left: calc(var(--padding) * 3);
+}
+
+.vector__mac--close {
+  fill: rgb(255, 95, 86);
+}
+
+.vector__mac--minimize {
+  fill: rgb(255, 189, 46);
+}
+
+.vector__mac--save {
+  fill: rgb(39, 201, 63);
+}

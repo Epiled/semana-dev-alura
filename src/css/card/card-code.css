@@ -1,0 +1,21 @@
+.card__code {
+  display: block;
+  color: rgb(255, 255, 255);
+  background-color: rgb(20, 20, 20);
+  border-radius: var(--border-radius);
+  height: 30.2rem;
+  width: 100%;
+  outline: 0;
+  padding-top: calc(var(--padding) * 3);
+  padding-left: var(--padding);
+  padding-right: var(--padding);
+  padding-bottom: var(--padding);
+  font: var(--font-code);
+  box-sizing: border-box;
+}
+
+.card__code--community {
+  max-height: 24rem;
+  height: 100%;
+  width: auto;
+}

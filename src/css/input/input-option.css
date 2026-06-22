@@ -1,0 +1,21 @@
+.input__option {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  border-radius: 0;
+  margin: 0;
+  background: rgb(45, 65, 91);
+}
+
+.input__option:hover {
+  cursor: pointer;
+  background: rgb(65, 83, 106);
+}
+
+.input__option:last-child {
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+.input__option.input__option--select {
+  color: var(--color-input);
+}

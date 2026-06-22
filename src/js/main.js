@@ -1,51 +1,51 @@
-/* Menu Hamburguer */
-const botaoHamburguer = document.querySelector("[data-hamburguer]");
-const mobileMenu = document.querySelector("[data-mobileMenu]");
+/* Menu Toggle */
+const buttonToggle = document.querySelector("[data-toggle]");
+const mobileMenu = document.querySelector("[data-sidebar]");
 
-botaoHamburguer.addEventListener("click", () => {
-    document.documentElement.classList.toggle('menuLateral__ativo');
-    mobileMenu.classList.toggle("mobileMenu--show");
+buttonToggle.addEventListener("click", () => {
+  document.documentElement.classList.toggle("sidebar__active");
+  mobileMenu.classList.toggle("mobileMenu--show");
 });
 
-document.documentElement.onclick = function(event) {
-    if (event.target === document.documentElement) {
-        document.documentElement.classList.remove('menuLateral__ativo');
-        mobileMenu.classList.remove('mobileMenu--show');
-    };
+document.documentElement.onclick = function (event) {
+  if (event.target === document.documentElement) {
+    document.documentElement.classList.remove("sidebar__active");
+    mobileMenu.classList.remove("mobileMenu--show");
+  }
 };
 
-/* Pesquisa */
-const botaoLupa = document.querySelector("[data-lupa]");
-botaoLupa.addEventListener("click", () => {
-    document.querySelector('[data-pesquisa]').classList.toggle('entrada__pesquisa--ativa');
-    document.querySelector('[data-logo]').classList.toggle('logo--ativo');
+/* Search */
+const buttonSearch = document.querySelector("[data-magnifyGlass]");
+buttonSearch.addEventListener("click", () => {
+  document
+    .querySelector("[data-search]")
+    .classList.toggle("input__search--active");
+  document.querySelector("[data-logo]").classList.toggle("logo--active");
 });
-
 
 /* Highlight.js */
-const areaDoCodigo = document.querySelector('[data-codeWrapper]');
-const linguagem = document.querySelector('[data-codeLinguagem]');
-const botao = document.querySelector('[data-botaoPreview]');
+const codeArea = document.querySelector("[data-codeWrapper]");
+const language = document.querySelector("[data-codeLanguage]");
+const buttonPreview = document.querySelector("[data-buttonPreview]");
 
-function mudaLinguagem() {
-    const codigo = areaDoCodigo.querySelector('[data-code]');
-    areaDoCodigo.innerHTML = `<code class="card__codigo hljs language-${linguagem.value}" data-code contenteditable="true"></code>`
-    areaDoCodigo.firstChild.innerText = codigo.innerText
+function changeLanguage() {
+  const code = codeArea.querySelector("[data-code]");
+  codeArea.innerHTML = `<code class="card__code hljs language-${language.value}" data-code contenteditable="true"></code>`;
+  codeArea.firstChild.innerText = code.innerText;
 }
 
-linguagem.addEventListener('change', () => {
-    mudaLinguagem()
+language.addEventListener("change", () => {
+  changeLanguage();
 });
 
-botao.addEventListener('click', () => {
-    const codigo = areaDoCodigo.querySelector('[data-code]')
-    hljs.highlightBlock(codigo);
+buttonPreview.addEventListener("click", () => {
+  const code = codeArea.querySelector("[data-code]");
+  hljs.highlightBlock(code);
 });
 
-const seletorCor = document.querySelector('[data-seletorCor]');
-const customConteiner = document.querySelector('[data-customConteiner]');
+const selectColor = document.querySelector("[data-selectColor]");
+const customContainer = document.querySelector("[data-customContainer]");
 
-seletorCor.addEventListener('input', () => {
-    customConteiner.style.background = seletorCor.value;
-
+selectColor.addEventListener("input", () => {
+  customContainer.style.background = selectColor.value;
 });

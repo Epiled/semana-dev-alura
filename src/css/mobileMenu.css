@@ -1,28 +1,28 @@
 .mobileMenu {
-    top: calc(var(--altura-menu) + var(--espaco-interno) * 4);
-    right: -30rem;
-    height: calc(100vh - (var(--altura-menu) + var(--espaco-interno) * 4));
-    min-width: 25.4rem;
-    z-index: 1;
-    background: #2D415B;
-    border-radius: var(--borda-arredondada);
-    position: fixed;
-    padding: 2.4rem;
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    font: var(--fonte-corpo);
-    transition: 1s right;
+  top: calc(var(--menu-height) + var(--padding) * 4);
+  right: -30rem;
+  height: calc(100vh - (var(--menu-height) + var(--padding) * 4));
+  min-width: 25.4rem;
+  z-index: 1;
+  background: #2d415b;
+  border-radius: var(--border-radius);
+  position: fixed;
+  padding: 2.4rem;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font: var(--font-body);
+  transition: 1s right;
 }
 
 .mobileMenu--show {
-    right: calc(var(--espaco-interno) * 2);
+  right: calc(var(--padding) * 2);
 }
 
 @media screen and (min-width: 1440px) {
-    .mobileMenu {
-        position: initial;
-        height: auto;
-        background: none;
-        padding: 0;
-    }
+  .mobileMenu {
+    position: initial;
+    height: auto;
+    background: none;
+    padding: 0;
+  }
 }

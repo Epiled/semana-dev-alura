@@ -1,0 +1,17 @@
+.input__options {
+  position: absolute;
+  display: block;
+  z-index: 2;
+  top: 5.6rem;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.input__container.input__container--open .input__options {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
