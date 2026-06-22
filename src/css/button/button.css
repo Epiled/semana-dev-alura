@@ -1,0 +1,14 @@
+.button {
+  border-radius: var(--borda-arredondada);
+  height: 5.2rem;
+  width: 100%;
+  outline: 0;
+  border: 0;
+  font: var(--fonte-corpo);
+  margin-top: calc(var(--espaco-interno) * 2);
+  margin-bottom: calc(var(--espaco-interno) * 3);
+}
+
+.button--info {
+  margin-bottom: 0;
+}

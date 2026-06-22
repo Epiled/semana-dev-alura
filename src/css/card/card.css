@@ -1,14 +1,14 @@
 .card {
-    width: 100%;
+  width: 100%;
 }
 
-.card--comunidade {
-    background: rgba(0, 0, 0, 0.16);
-    border-radius: var(--borda-arredondada);
+.card--community {
+  background: rgba(0, 0, 0, 0.16);
+  border-radius: var(--borda-arredondada);
 }
 
-@media screen and (min-width:1440px) {
-    .card--comunidade {
-        margin-top: 0;
-    }
+@media screen and (min-width: 1440px) {
+  .card--community {
+    margin-top: 0;
+  }
 }

@@ -1,9 +1,0 @@
-.corpo {
-    padding: var(--espaco-interno);
-}
-
-@media screen and (min-width: 768px) {
-    .corpo {
-        padding: calc(var(--espaco-interno) * 2);
-    }
-}

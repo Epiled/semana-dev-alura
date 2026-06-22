@@ -1,12 +1,12 @@
 .cards {
-    display: grid;
-    grid-gap: var(--espaco-interno-card);
-    grid-template-columns: auto;
+  display: grid;
+  grid-gap: var(--espaco-interno-card);
+  grid-template-columns: auto;
 }
 
-@media screen and (min-width:1440px) {
-    .cards {
-        grid-template-columns: auto auto;
-        width: 100%;
-    }
+@media screen and (min-width: 1440px) {
+  .cards {
+    grid-template-columns: auto auto;
+    width: 100%;
+  }
 }

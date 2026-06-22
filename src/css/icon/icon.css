@@ -1,0 +1,36 @@
+.icon {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: calc(var(--borda-arredondada) * 2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.8rem;
+}
+
+.icon--community {
+  height: 4rem;
+  width: 5.8rem;
+}
+
+.icon--community:first-of-type {
+  margin: 0;
+}
+
+.icon--community:active .icon__heart {
+  fill: rgb(246, 81, 81);
+}
+
+.icon:hover {
+  background: rgba(80, 129, 251, 0.08);
+}
+
+.icon:active {
+  background: rgba(80, 129, 251, 0.16);
+}
+
+@media screen and (min-width: 768px) {
+  .icon--magnifyGlass {
+    display: none;
+  }
+}

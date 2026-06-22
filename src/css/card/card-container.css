@@ -1,0 +1,10 @@
+.card__container {
+  padding: calc(var(--espaco-interno) * 2);
+  background-color: var(--cor-personalizada);
+  border-radius: var(--borda-arredondada);
+  position: relative;
+}
+
+.card__container--community {
+  padding: calc(var(--espaco-interno-perfil) * 2);
+}

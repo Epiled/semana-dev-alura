@@ -1,0 +1,19 @@
+.sidebar {
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.08);
+}
+
+.sidebar__active:after {
+  content: "";
+  display: block;
+  position: fixed;
+  top: var(--altura-menu);
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .sidebar {
+    border-bottom: 0;
+  }
+}

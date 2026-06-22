@@ -1,18 +1,9 @@
-:root {
-    font-size: 62.5%;
-    background: rgb(5, 29, 59);
-    --borda-arredondada: .8rem;
-    --espaco-interno: 1.6rem;
-    --espaco-interno-perfil: 1.2rem;
-    --espaco-interno-card: 2.4rem;
-    --cor-personalizada: rgb(107, 209, 255);
-    --fonte-corpo: normal normal 1.6rem/2.4rem 'Inter', 'sans-serif';
-    --fonte-code: normal normal 1.4rem/1.8rem 'Roboto', sans-serif;
-    --font-titulo-sideBar: normal normal 1.2rem/1.8rem 'Inter', 'sans-serif';
-    --font-titulo: normal bold 2.1rem/3.2rem 'Inter', 'sans-serif';
-    --altura-menu: 5.6rem;
+.main {
+  padding: var(--espaco-interno);
 }
 
-a {
-    text-decoration: none;
+@media screen and (min-width: 768px) {
+  .main {
+    padding: calc(var(--espaco-interno) * 2);
+  }
 }
