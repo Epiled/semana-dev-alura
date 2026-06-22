@@ -1,6 +1,6 @@
 .card__description {
-  font: var(--fonte-corpo);
+  font: var(--font-body);
   color: white;
-  margin-top: var(--espaco-interno);
-  margin-bottom: calc(var(--espaco-interno) * 2);
+  margin-top: var(--padding);
+  margin-bottom: calc(var(--padding) * 2);
 }

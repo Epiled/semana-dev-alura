@@ -4,7 +4,7 @@
 
 .card--community {
   background: rgba(0, 0, 0, 0.16);
-  border-radius: var(--borda-arredondada);
+  border-radius: var(--border-radius);
 }
 
 @media screen and (min-width: 1440px) {

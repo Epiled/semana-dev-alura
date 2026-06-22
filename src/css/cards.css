@@ -1,6 +1,6 @@
 .cards {
   display: grid;
-  grid-gap: var(--espaco-interno-card);
+  grid-gap: var(--padding-card);
   grid-template-columns: auto;
 }
 

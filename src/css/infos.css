@@ -6,6 +6,6 @@
   .infos {
     width: 100%;
     max-width: 27.2rem;
-    margin-left: calc(var(--espaco-interno) * 2);
+    margin-left: calc(var(--padding) * 2);
   }
 }

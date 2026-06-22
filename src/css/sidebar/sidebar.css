@@ -6,7 +6,7 @@
   content: "";
   display: block;
   position: fixed;
-  top: var(--altura-menu);
+  top: var(--menu-height);
   left: 0;
   bottom: 0;
   right: 0;

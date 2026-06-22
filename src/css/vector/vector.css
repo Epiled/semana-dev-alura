@@ -2,8 +2,8 @@
   height: 1.2rem;
   width: 5.2rem;
   position: absolute;
-  top: calc(var(--espaco-interno) * 3);
-  left: calc(var(--espaco-interno) * 3);
+  top: calc(var(--padding) * 3);
+  left: calc(var(--padding) * 3);
 }
 
 .vector__mac--close {

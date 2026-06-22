@@ -13,7 +13,7 @@
 }
 
 .input__option:last-child {
-  border-radius: 0 0 var(--borda-arredondada) var(--borda-arredondada);
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
 
 .input__option.input__option--select {

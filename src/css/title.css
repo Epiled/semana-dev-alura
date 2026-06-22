@@ -1,11 +1,11 @@
 .title {
-  font: var(--font-titulo);
+  font: var(--font-title);
   color: white;
 }
 
 .title__sidebar {
-  font: var(--font-titulo-sideBar);
+  font: var(--font-title-sidebar);
   letter-spacing: 0.4em;
   text-transform: uppercase;
-  margin-bottom: var(--espaco-interno);
+  margin-bottom: var(--padding);
 }
