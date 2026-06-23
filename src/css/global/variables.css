@@ -9,6 +9,37 @@
 
   --color-custom: rgb(107, 209, 255);
 
+  --color-primary: rgb(80, 129, 251);
+  --color-primary-alpha-08: rgba(80, 129, 251, 0.08);
+  --color-primary-alpha-16: rgba(80, 129, 251, 0.16);
+  --color-primary-alpha-24: rgba(80, 129, 251, 0.24);
+  --color-primary-alpha-64: rgba(80, 129, 251, 0.64);
+  --color-primary-alpha-72: rgba(80, 129, 251, 0.72);
+
+  --color-primary-light: rgb(123, 164, 252);
+  --color-primary-lighter: rgb(150, 185, 253);
+  --color-on-primary: rgb(5, 29, 59);
+
+  --color-surface-card: rgb(20, 20, 20);
+  --color-surface-primary: rgb(45, 65, 91);
+  --color-surface-hover: rgb(65, 83, 106);
+
+  --color-shadow-16: rgba(0, 0, 0, 0.16);
+
+  --color-accent-red: rgb(246, 81, 81);
+
+  --color-semantic-danger: rgb(255, 95, 86);
+  --color-semantic-warning: rgb(255, 189, 46);
+  --color-semantic-success: rgb(39, 201, 63);
+
+  --color-neutral-white: rgb(255, 255, 255);
+  --color-neutral-white-alpha-8: rgba(255, 255, 255, 0.08);
+  --color-neutral-white-alpha-16: rgba(255, 255, 255, 0.16);
+  --color-neutral-white-alpha-24: rgba(255, 255, 255, 0.24);
+  --color-neutral-white-alpha-48: rgba(255, 255, 255, 0.48);
+  --color-neutral-white-alpha-64: rgba(255, 255, 255, 0.64);
+  --color-neutral-white-alpha-80: rgba(255, 255, 255, 0.8);
+
   --font-body: normal normal 1.6rem/2.4rem "Inter", "sans-serif";
   --font-code: normal normal 1.4rem/1.8rem "Roboto", sans-serif;
   --font-title-sidebar: normal normal 1.2rem/1.8rem "Inter", "sans-serif";

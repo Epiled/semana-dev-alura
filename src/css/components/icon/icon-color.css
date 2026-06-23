@@ -1,7 +1,7 @@
 .icon__color {
-  fill: rgb(255, 255, 255);
+  fill: var(--color-neutral-white);
 }
 
 .icon__color--inactive {
-  fill: rgba(255, 255, 255, 0.48);
+  fill: var(--color-neutral-white-alpha-48);
 }

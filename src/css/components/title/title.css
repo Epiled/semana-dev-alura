@@ -1,6 +1,6 @@
 .title {
   font: var(--font-title);
-  color: white;
+  color: var(--color-neutral-white);
 }
 
 .title--sidebar {

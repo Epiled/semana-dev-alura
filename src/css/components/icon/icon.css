@@ -19,15 +19,15 @@
 }
 
 .icon--community:active .icon__heart {
-  fill: rgb(246, 81, 81);
+  fill: var(--color-accent-red);
 }
 
 .icon:hover {
-  background: rgba(80, 129, 251, 0.08);
+  background: var(--color-primary-alpha-08);
 }
 
 .icon:active {
-  background: rgba(80, 129, 251, 0.16);
+  background: var(--color-primary-alpha-16);
 }
 
 @media screen and (min-width: 768px) {

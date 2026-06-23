@@ -3,10 +3,3 @@
   flex-direction: column;
   gap: 4rem;
 }
-
-@media screen and (min-width: 1440px) {
-  .info {
-    width: 100%;
-    max-width: 27.2rem;
-  }
-}

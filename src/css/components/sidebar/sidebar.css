@@ -7,12 +7,12 @@
   bottom: var(--padding);
   min-width: 25.4rem;
   z-index: 1;
-  background: #2d415b;
+  background: var(--color-surface-primary);
   border-radius: var(--border-radius);
   position: fixed;
   padding: 2.4rem;
   box-sizing: border-box;
-  color: rgb(255, 255, 255);
+  color: var(--color-neutral-white);
   font: var(--font-body);
   transition: 1s right;
 }

@@ -1,21 +1,21 @@
 .sidebar__link {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: var(--color-neutral-white);
 }
 
 .sidebar__link .sidebar__iconBackground {
-  background: rgba(80, 129, 251, 0.16);
+  background: var(--color-primary-alpha-16);
 }
 
 .sidebar__link:hover .sidebar__iconBackground,
-.sidebar__link:hover .icone__cor {
-  fill: rgba(255, 255, 255, 0.8);
-  background: rgba(80, 129, 251, 0.64);
+.sidebar__link:hover .icon__cor {
+  fill: var(--color-neutral-white-alpha-80);
+  background: var(--color-primary-alpha-64);
 }
 
 .sidebar__link--active .sidebar__iconBackground,
 .sidebar__link:active .sidebar__iconBackground,
-.sidebar__link:active .icone__cor {
-  fill: rgb(255, 255, 255);
-  background: rgb(80, 129, 251);
+.sidebar__link:active .icon__cor {
+  fill: var(--color-neutral-white);
+  background: var(--color-primary);
 }

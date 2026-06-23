@@ -1,7 +1,7 @@
 .card__code {
   display: block;
-  color: rgb(255, 255, 255);
-  background-color: rgb(20, 20, 20);
+  color: var(--color-neutral-white);
+  background-color: var(--color-surface-card);
   border-radius: var(--border-radius);
   height: 30.2rem;
   width: 100%;

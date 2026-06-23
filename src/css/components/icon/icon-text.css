@@ -1,5 +1,5 @@
 .icon__text {
-  color: white;
+  color: var(--color-neutral-white);
   font: var(--font-body);
   margin-left: 0.8rem;
 }

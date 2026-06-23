@@ -1,17 +1,17 @@
 .button__outline {
-  background-color: rgba(80, 129, 251, 0.08);
-  color: rgb(255, 255, 255);
+  background-color: var(--color-primary-alpha-08);
+  color: var(--color-neutral-white);
 }
 
 .button__outline:hover {
-  background-color: rgba(80, 129, 251, 0.16);
+  background-color: var(--color-primary-alpha-16);
 }
 
 .button__outline:focus {
-  background-color: rgba(80, 129, 251, 0.24);
+  background-color: var(--color-primary-alpha-24);
 }
 
 .button__outline:active {
-  background-color: rgba(80, 129, 251, 0.16);
-  border: 0.4rem solid rgba(80, 129, 251, 0.24);
+  background-color: var(--color-primary-alpha-16);
+  border: 0.4rem solid var(--color-primary-alpha-24);
 }

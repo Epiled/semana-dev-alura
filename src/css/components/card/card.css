@@ -6,7 +6,7 @@
 }
 
 .card--community {
-  background: rgba(0, 0, 0, 0.16);
+  background: var(--color-shadow-16);
   border-radius: var(--border-radius);
   gap: 0;
 }

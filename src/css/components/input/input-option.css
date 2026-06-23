@@ -4,12 +4,12 @@
   cursor: pointer;
   border-radius: 0;
   margin: 0;
-  background: rgb(45, 65, 91);
+  background: var(--color-surface-primary);
 }
 
 .input__option:hover {
   cursor: pointer;
-  background: rgb(65, 83, 106);
+  background: var(--color-surface-hover);
 }
 
 .input__option:last-child {

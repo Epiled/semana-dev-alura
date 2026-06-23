@@ -7,13 +7,13 @@
 }
 
 .vector__mac--close {
-  fill: rgb(255, 95, 86);
+  fill: var(--color-semantic-danger);
 }
 
 .vector__mac--minimize {
-  fill: rgb(255, 189, 46);
+  fill: var(--color-semantic-warning);
 }
 
 .vector__mac--save {
-  fill: rgb(39, 201, 63);
+  fill: var(--color-semantic-success);
 }
