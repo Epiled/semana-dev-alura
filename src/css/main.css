@@ -1,9 +1,0 @@
-.main {
-  padding: var(--padding);
-}
-
-@media screen and (min-width: 768px) {
-  .main {
-    padding: calc(var(--padding) * 2);
-  }
-}

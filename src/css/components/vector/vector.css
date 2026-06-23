@@ -1,0 +1,19 @@
+.vector {
+  height: 1.2rem;
+  width: 5.2rem;
+  position: absolute;
+  top: calc(var(--padding) * 3);
+  left: calc(var(--padding) * 3);
+}
+
+.vector__mac--close {
+  fill: var(--color-semantic-danger);
+}
+
+.vector__mac--minimize {
+  fill: var(--color-semantic-warning);
+}
+
+.vector__mac--save {
+  fill: var(--color-semantic-success);
+}

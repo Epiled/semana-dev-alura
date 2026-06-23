@@ -1,0 +1,35 @@
+.profile {
+  align-items: center;
+  color: var(--color-neutral-white);
+  font: var(--font-body);
+  display: flex;
+  border-radius: var(--border-radius);
+  padding: var(--padding-profile);
+}
+
+.profile--mobile:hover {
+  cursor: pointer;
+  background: var(--color-neutral-white-alpha-8);
+}
+
+.profile--desktop {
+  display: none;
+}
+
+.profile--community {
+  margin: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .profile--mobile {
+    display: none;
+  }
+
+  .profile--desktop {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}

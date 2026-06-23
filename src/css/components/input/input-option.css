@@ -1,0 +1,21 @@
+.input__option {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  border-radius: 0;
+  margin: 0;
+  background: var(--color-surface-primary);
+}
+
+.input__option:hover {
+  cursor: pointer;
+  background: var(--color-surface-hover);
+}
+
+.input__option:last-child {
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+.input__option.input__option--select {
+  color: var(--color-input);
+}

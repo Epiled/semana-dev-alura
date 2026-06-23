@@ -1,0 +1,7 @@
+.icon__color {
+  fill: var(--color-neutral-white);
+}
+
+.icon__color--inactive {
+  fill: var(--color-neutral-white-alpha-48);
+}

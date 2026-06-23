@@ -1,0 +1,10 @@
+.title {
+  font: var(--font-title);
+  color: var(--color-neutral-white);
+}
+
+.title--sidebar {
+  font: var(--font-title-sidebar);
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+}

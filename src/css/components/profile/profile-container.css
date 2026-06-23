@@ -1,0 +1,11 @@
+.profile__container {
+  display: flex;
+  align-items: center;
+  border-radius: var(--border-radius);
+  padding: var(--padding-profile);
+}
+
+.profile__container:hover {
+  cursor: pointer;
+  background: var(--color-neutral-white-alpha-8);
+}

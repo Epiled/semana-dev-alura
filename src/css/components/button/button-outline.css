@@ -1,0 +1,17 @@
+.button__outline {
+  background-color: var(--color-primary-alpha-08);
+  color: var(--color-neutral-white);
+}
+
+.button__outline:hover {
+  background-color: var(--color-primary-alpha-16);
+}
+
+.button__outline:focus {
+  background-color: var(--color-primary-alpha-24);
+}
+
+.button__outline:active {
+  background-color: var(--color-primary-alpha-16);
+  border: 0.4rem solid var(--color-primary-alpha-24);
+}

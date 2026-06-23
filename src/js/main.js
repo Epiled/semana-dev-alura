@@ -4,13 +4,13 @@ const mobileMenu = document.querySelector("[data-sidebar]");
 
 buttonToggle.addEventListener("click", () => {
   document.documentElement.classList.toggle("sidebar__active");
-  mobileMenu.classList.toggle("mobileMenu--show");
+  mobileMenu.classList.toggle("sidebar--show");
 });
 
 document.documentElement.onclick = function (event) {
   if (event.target === document.documentElement) {
     document.documentElement.classList.remove("sidebar__active");
-    mobileMenu.classList.remove("mobileMenu--show");
+    mobileMenu.classList.remove("sidebar--show");
   }
 };
 

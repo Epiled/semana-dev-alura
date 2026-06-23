@@ -1,0 +1,24 @@
+{
+  "name": "semana-dev-alura",
+  "description": "Semana Dev Alura website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "browser-sync start --server src --files '*.html, css/*.css, js/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Epiled/semana-dev-alura.git"
+  },
+  "keywords": [
+    "semana-dev-alura"
+  ],
+  "author": "Felipe De Andrade (https://github.com/Epiled)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Epiled/semana-dev-alura/issues"
+  },
+  "homepage": "https://github.com/Epiled/semana-dev-alura#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.4"
+  }
+}

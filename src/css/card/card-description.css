@@ -1,6 +1,0 @@
-.card__description {
-  font: var(--font-body);
-  color: white;
-  margin-top: var(--padding);
-  margin-bottom: calc(var(--padding) * 2);
-}

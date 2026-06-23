@@ -1,0 +1,37 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  top: calc(var(--menu-height) + var(--padding) + var(--padding-card));
+  right: -30rem;
+  bottom: var(--padding);
+  min-width: 25.4rem;
+  z-index: 1;
+  background: var(--color-surface-primary);
+  border-radius: var(--border-radius);
+  position: fixed;
+  padding: 2.4rem;
+  box-sizing: border-box;
+  color: var(--color-neutral-white);
+  font: var(--font-body);
+  transition: 1s right;
+}
+
+.sidebar--show {
+  right: calc(var(--padding) * 1);
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar {
+    top: calc(var(--menu-height) + (var(--padding) * 2) + var(--padding-card));
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .sidebar {
+    position: initial;
+    height: auto;
+    background: none;
+    padding: 0;
+  }
+}
