@@ -1,10 +1,14 @@
 .card {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--padding) * 2);
   width: 100%;
 }
 
 .card--community {
   background: rgba(0, 0, 0, 0.16);
   border-radius: var(--border-radius);
+  gap: 0;
 }
 
 @media screen and (min-width: 1440px) {

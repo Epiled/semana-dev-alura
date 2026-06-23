@@ -3,9 +3,8 @@
   color: white;
 }
 
-.title__sidebar {
+.title--sidebar {
   font: var(--font-title-sidebar);
   letter-spacing: 0.4em;
   text-transform: uppercase;
-  margin-bottom: var(--padding);
 }

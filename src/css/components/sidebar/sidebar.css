@@ -1,7 +1,10 @@
-.mobileMenu {
-  top: calc(var(--menu-height) + var(--padding) * 4);
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  top: calc(var(--menu-height) + var(--padding) + var(--padding-card));
   right: -30rem;
-  height: calc(100vh - (var(--menu-height) + var(--padding) * 4));
+  bottom: var(--padding);
   min-width: 25.4rem;
   z-index: 1;
   background: #2d415b;
@@ -14,12 +17,18 @@
   transition: 1s right;
 }
 
-.mobileMenu--show {
-  right: calc(var(--padding) * 2);
+.sidebar--show {
+  right: calc(var(--padding) * 1);
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar {
+    top: calc(var(--menu-height) + (var(--padding) * 2) + var(--padding-card));
+  }
 }
 
 @media screen and (min-width: 1440px) {
-  .mobileMenu {
+  .sidebar {
     position: initial;
     height: auto;
     background: none;

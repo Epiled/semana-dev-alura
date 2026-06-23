@@ -1,11 +1,12 @@
-.form {
+.info {
   display: flex;
   flex-direction: column;
+  gap: 4rem;
 }
 
 @media screen and (min-width: 1440px) {
-  .form {
-    flex-direction: row;
+  .info {
     width: 100%;
+    max-width: 27.2rem;
   }
 }

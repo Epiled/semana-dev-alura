@@ -5,7 +5,6 @@
 
 .sidebar__link .sidebar__iconBackground {
   background: rgba(80, 129, 251, 0.16);
-  margin-right: 1rem;
 }
 
 .sidebar__link:hover .sidebar__iconBackground,

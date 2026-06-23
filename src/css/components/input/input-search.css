@@ -22,3 +22,9 @@
     padding: var(--padding);
   }
 }
+@media screen and (min-width: 1440px) {
+  .input__search {
+    margin: 0;
+    justify-self: center;
+  }
+}

@@ -2,10 +2,11 @@
   height: 4.8rem;
   width: 4.8rem;
   border-radius: calc(var(--border-radius) * 2);
+  padding: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-left: 0.8rem;
+  flex-shrink: 0;
 }
 
 .icon--community {
@@ -30,7 +31,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  .icon--magnifyGlass {
+  .icon--hidden-tablet {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .icon--hidden-desktop {
     display: none;
   }
 }

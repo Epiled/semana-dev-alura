@@ -1,0 +1,26 @@
+.sidebar__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  position: relative;
+}
+
+.sidebar__list::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: calc(100% + var(--padding-card));
+  left: 0;
+  width: 100%;
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.08);
+}
+
+@media screen and (min-width: 1440px) {
+  .sidebar__list {
+    border-bottom: 0;
+  }
+
+  .sidebar__list::after {
+    display: none;
+  }
+}

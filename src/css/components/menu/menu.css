@@ -1,0 +1,20 @@
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--menu-height);
+  gap: 0.8rem;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    gap: 4rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .menu {
+    display: grid;
+    grid-template-columns: 27.2rem 1fr 27.2rem;
+  }
+}

@@ -1,0 +1,19 @@
+.container__main {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .container__main {
+    display: grid;
+    grid-template-columns: 27.2rem 1fr 27.2rem;
+    justify-content: space-between;
+  }
+
+  .container__main--community {
+    display: grid;
+    grid-template-columns: 27.2rem 1fr;
+    justify-content: space-between;
+  }
+}

@@ -9,7 +9,6 @@
   font: var(--font-body);
   padding: 1.6rem;
   box-sizing: border-box;
-  margin-bottom: var(--padding);
 }
 
 .input:last-child {
@@ -18,6 +17,7 @@
 
 .input:hover {
   background: rgba(255, 255, 255, 0.24);
+  cursor: pointer;
 }
 
 .input:focus {
@@ -41,11 +41,4 @@
 
 .input--select {
   padding: 0;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1439px) {
-  .input--select {
-    margin-right: var(--padding);
-    margin-bottom: 0;
-  }
 }
