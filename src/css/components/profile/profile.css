@@ -7,7 +7,7 @@
   padding: var(--padding-profile);
 }
 
-.profile:hover {
+.profile--mobile:hover {
   cursor: pointer;
   background: var(--color-neutral-white-alpha-8);
 }
