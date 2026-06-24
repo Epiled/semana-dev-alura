@@ -39,7 +39,7 @@ The following technologies were used to build this project:
 
 ## ⚡ Performance & PWA
 
-Coming Soon!
+![Lighthouse Performance](./design/github/lighthouse-report/lighthouse-report-light.png)
 
 ## 🚀 Demo
 
@@ -57,7 +57,7 @@ Coming Soon!
 
 ## 📦 Install and Use
 
-This project currently operates without a local development server or build step, meaning it can be run directly from your file system.
+**Prerequisites:** Node.js (v22.x) or higher installed.
 
 1. Clone the repository:
 ```bash
@@ -65,9 +65,15 @@ git clone https://github.com/Epiled/semana-dev-alura.git
 cd semana-dev-alura
 ```
 
-### Local Execution
+2. Install the dependencies:
+```bash
+npm install
+```
 
-To view and interact with the project, simply open the index.html file in your preferred web browser. You can do this by double-clicking the file in your file explorer or dragging it into an open browser tab.
+3. Run the development environment (Build + Watch + Server):
+```bash
+npm run dev
+```
 
 ## 📂 File Structure
 
