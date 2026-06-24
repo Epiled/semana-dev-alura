@@ -45,15 +45,15 @@ The following technologies were used to build this project:
 
 Access the live application below to interact with the interface and run your own performance tests.
 
-Semana Dev Alura: 
+Semana Dev Alura: [https://semana-dev-alura.vercel.app/](https://semana-dev-alura.vercel.app/)
 
 ### Desktop
 
-Coming Soon!
+[desktop.webm](https://github.com/user-attachments/assets/b3dd337c-a7ab-41aa-8abd-1299bebb03bb)
 
 ### Mobile
 
-Coming Soon!
+[mobile.webm](https://github.com/user-attachments/assets/cf867171-934e-4c71-87b4-cf395db7f64b)
 
 ## 📦 Install and Use
 
@@ -86,7 +86,8 @@ semana-dev-alura/
 │   ├── assets/              # Original images and icons
 │   ├── css/                 # Styles following architecture BEM and Atomic Design principles
 │   └──js/                   # UI logic and PWA registration
-└── index.html               # Base semantic structure and main markup
+├──  index.html              # Base semantic structure and main markup
+└── package.json             # Project dependencies and npm scripts
 ```
 
 ## 🎨 Reference & Inspiration
